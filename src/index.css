@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: -apple-system, 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #282828 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+#root {
+  background-color: #FEDE92;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.app_bg-gray {
+  background-color: #F3F3F3;
+}
+
+.remove-btn {
+  background-color: #CECECE;
+  transition: 0.3s;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.remove-btn-cross {
+  color: white;
+  font-weight: bold;
+  font-size: 26px;
+
+}
+
+.remove-btn:hover {
+  background-color: #EB5757;
+}
+
+.users-group_btn:hover {
+  box-shadow: 0 0rem .5rem rgba(0,0,0,.4) !important;
+}
+
+.users-group_btn_focus {
+  box-shadow: 0 0rem .5rem rgba(0,0,0,.4) !important;
+}
